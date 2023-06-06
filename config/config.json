@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "multi-web-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/multiWeb1/MultiWeb1WebPart.js",
+          "manifest": "./src/webparts/multiWeb1/MultiWeb1WebPart.manifest.json"
+        }
+      ]
+    },
+    "mult-web-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/multWeb2/MultWeb2WebPart.js",
+          "manifest": "./src/webparts/multWeb2/MultWeb2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MultiWeb1WebPartStrings": "lib/webparts/multiWeb1/loc/{locale}.js",
+    "MultWeb2WebPartStrings": "lib/webparts/multWeb2/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "mult-web",
+    "libraryId": "b1c2e1d5-2942-48dd-a814-d729db970980",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "MultWeb",
+    "solutionShortDescription": "MultWeb description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

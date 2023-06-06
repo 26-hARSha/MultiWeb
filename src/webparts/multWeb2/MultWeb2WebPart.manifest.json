@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "9f91e06e-2208-4e3c-a495-f060fd4a8c0b",
+  "alias": "MultWeb2WebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+  
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "MultWeb2" },
+    "description": { "default": "MultWeb2 description" },
+    "officeFabricIconFontName": "AddHome",
+    "properties": {
+      "description": "MultWeb2"
+    }
+  }]
+}
