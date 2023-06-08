@@ -3,7 +3,7 @@
   "solution": {
     "name": "mult-web-client-side-solution",
     "id": "b1c2e1d5-2942-48dd-a814-d729db970980",
-    "version": "1.1.0.0",
+    "version": "1.2.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,

@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/multWeb2/MultWeb2WebPart.manifest.json"
         }
       ]
+    },
+    "curd-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/curd/CurdWebPart.js",
+          "manifest": "./src/webparts/curd/CurdWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "MultiWeb1WebPartStrings": "lib/webparts/multiWeb1/loc/{locale}.js",
-    "MultWeb2WebPartStrings": "lib/webparts/multWeb2/loc/{locale}.js"
+    "MultWeb2WebPartStrings": "lib/webparts/multWeb2/loc/{locale}.js",
+    "CurdWebPartStrings": "lib/webparts/curd/loc/{locale}.js"
   }
 }
